@@ -1,0 +1,155 @@
+.contact{
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+   margin: 10px 170px;
+}
+.title{
+    position: relative;
+}
+.title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+}
+.con-section{
+    display: flex;
+    gap: 150px;
+}
+.con-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.con-left h1{
+font-size: 70px;
+font-weight: 700;
+
+background: linear-gradient(
+    267deg,
+    rgb(239, 17, 17) 0.36%,
+    rgb(243, 179, 179) 102.2%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.con-left p{
+    max-width: 500px;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 35px;
+}
+.con-details{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.con-detail{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.con-right{
+ display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;   
+}
+.con-right label{
+  color: aliceblue;
+    font-size: 20px;   
+}
+.con-right input{
+    border: none;
+    width: 700px;
+    height: 78px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: rgb(53, 53, 53);
+    color: aliceblue;
+    font-size: 20px;   
+      font-family: outfit;
+}
+
+.con-right textarea{
+    width: 650px;
+    border: none;
+    padding: 25px;
+    border-radius: 4px;
+    background: rgb(53, 53, 53);
+    color: aliceblue;
+     font-size: 20px;   
+      font-family: outfit;
+}
+.con-submit{
+    color: white;
+     padding: 20px 60px;
+    border-radius: 40px;
+     font-size: 20px; 
+     margin-bottom: 50px;
+     
+background: linear-gradient(
+    267deg,
+    rgb(239, 17, 17) 0.36%,
+    rgb(243, 179, 179) 102.2%
+  );
+  cursor: pointer;
+  transition: 0.3s;
+}
+.con-submit:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+@media (max-width:768px) {
+    .contact{
+        gap: 50px;
+        margin: 50px 70px;
+        align-self: start;
+    }
+    .title h1{
+    padding: 0;
+    font-size: 50px;
+    font-weight: 600;
+}
+.con-section{
+    flex-direction: column;
+}
+.con-left h1{
+    font-size: 54px;
+    margin-left: 54px;
+}
+.con-left p{
+    font-size: 18px;
+    margin-left: 54px;
+}
+.con-details{
+    gap: 20px;
+}
+.con-detail img{
+   margin-left: 54px;
+}
+.con-right label{
+    margin-left: 54px;
+
+}
+.con-right input{
+font-size: 20px;
+width: 100%;
+}
+
+
+.con-right textarea{
+    width: 65%;
+    font-size: 18px;
+}
+
+.con-submit{
+    font-size: 18px;
+    padding: 15px 40px;
+}
+}

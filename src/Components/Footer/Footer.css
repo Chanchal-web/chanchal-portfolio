@@ -1,0 +1,80 @@
+.footer{
+    margin: 50px 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.foottop{
+    display: flex;
+    justify-content: space-between;
+}
+.foottop-left p{
+    font-size: 17px;
+    max-width: 300px;
+}
+.foottop-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footemail-input{
+     display: flex;
+     padding: 20px 30px;
+     gap: 30px;
+     border-radius: 50px;
+     background: rgb(48, 47, 47);
+     padding-right: 80px;
+}
+.footemail-input input{
+    outline: none;
+    border: none;
+    background: transparent;
+    color: aliceblue;
+    font-size: 18px;
+    font-family: outfit;
+}
+.subscribe{
+    font-size: 18px;
+    padding: 22px 50px;
+    border-radius: 50px;
+       
+background: linear-gradient(
+    267deg,
+    rgb(239, 17, 17) 0.36%,
+    rgb(243, 179, 179) 102.2%
+  );
+  cursor: pointer;
+  transition: 0.3s;
+}
+.foot-bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.foot-right{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.footemail-input:hover{
+    border: 2px solid white;
+}
+.subscribe:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+@media (max-width:768px) {
+    .footer{
+        margin: 50px 70px;
+    }
+    .foottop{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .foot-bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+}

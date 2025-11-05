@@ -1,0 +1,108 @@
+/* General Section */
+.about {
+ /* Dark background */
+  color: #fff;
+  padding: 60px 10%;
+  font-family: Arial, sans-serif;
+}
+
+/* Container Flexbox */
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+/* Left Side */
+.about-left {
+  flex: 1;
+  text-align: center;
+}
+
+.about-left img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+/* Stats */
+.about-stats {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.about-stats div h2 {
+  font-size: 28px;
+  margin: 0;
+  color: #ff0080; /* Accent color */
+}
+.about-stats div h2:hover{
+transform: scale(1.12);
+transition: 0.9s;
+}
+
+.about-stats div p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Right Side */
+.about-right {
+  flex: 2;
+}
+
+.about-right h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-right h1 span {
+  color: #ff0080;
+}
+
+.about-right p {
+  font-size: 15px;
+  color: #ddd;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Skills */
+.skills p {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.bar {
+  width: 100%;
+  background: #333;
+  height: 8px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.bar span {
+  display: block;
+  height: 100%;
+  background:linear-gradient(267deg, rgb(220, 12, 12) 0.36%, rgb(243, 179, 179) 102.2%);
+  /*background: linear-gradient(90deg, #a100ff, #ff0080);*/
+
+}
+.skills p:hover{
+transform: scale(1.05);
+transition: 0.3s;
+}
+
+
+
+
+
+
+

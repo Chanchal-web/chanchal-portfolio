@@ -1,0 +1,67 @@
+.newimg {
+  height: 230px;
+  width: 230px;
+  border-radius: 130px;
+  margin-top: 50px;
+}
+.head {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.head h1 {
+  text-align: center;
+  width: 70%;
+  font-size: 80px;
+  font-weight: 500px;
+}
+.head h1 span {
+  background: linear-gradient(
+    267deg,
+    rgb(239, 17, 17) 0.36%,
+    rgb(243, 179, 179) 102.2%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.head p {
+  width: 50%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+}
+.head-action {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.head-connect {
+  padding: 25px 45px;
+  border-radius: 50px;
+  background: linear-gradient(
+    267deg,
+    rgb(220, 12, 12) 0.36%,
+    rgb(243, 179, 179) 102.2%
+  );
+  cursor: pointer;
+}
+
+.head-resume {
+  padding: 25px 75px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 2px solid #fff;
+  color: aliceblue;
+  text-decoration: none;
+}
+.head-connect:hover {
+  border: 2px solid #fff;
+}
+.head-resume:hover {
+  border-color: rgb(223, 94, 48);
+}
