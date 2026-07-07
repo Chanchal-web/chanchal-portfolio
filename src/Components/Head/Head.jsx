@@ -11,7 +11,7 @@ function Head() {
       <div className="head-action">
         <div className="head-connect">Connect with me</div>
         
-        <a href="public\chanchal_muraskar (2).pdf" download="public\chanchal_muraskar (2).pdf" className="head-resume">Download Resume</a>
+        <a  href="/resume.pdf" download="/resume.pdf" className="head-resume">Download Resume</a>
       </div>
     </div>
   )
