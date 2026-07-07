@@ -6,6 +6,11 @@
   font-family: Arial, sans-serif;
 }
 
+@media screen and (max-width: 768px) {
+
+  /* Mobile CSS here */
+
+}
 /* Container Flexbox */
 .about-container {
   display: flex;
