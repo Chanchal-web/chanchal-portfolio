@@ -42,7 +42,7 @@ function Contact() {
       <div className="con-section">
         <div className="con-left">
             <h1>Let's talk</h1>
-            <p>I'm always open to discussing new projects,creative ideas,or opportunities to be part of your vision.Whether you're looking for a developer or just want to connect feel free to react out!</p>
+            <p>I'm always open to discussing new projects,creative ideas,or opportunities to be part of your vision.Whether you're looking for a developer or just want to connect feel free to reach out!</p>
             <div className="con-details">
                 <div className="con-detail">
               <img src={mail} alt=""/><p>muraskarchanchal@gmail.com</p>
@@ -53,7 +53,7 @@ function Contact() {
                 </div>
 
                  <div className="con-detail">
-                   <img src={loc} alt=""/> <p>Nagpur, Maharashtra</p>
+                   <img src={loc} alt=""/> <p>Pune, Maharashtra</p>
                 </div>
             </div>
         </div>

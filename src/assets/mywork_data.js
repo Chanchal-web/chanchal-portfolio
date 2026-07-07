@@ -1,9 +1,10 @@
 // workData.js
-import Screenshot from "../assets/Screenshot.png";
+import EMS from "../assets/EMS.png";
 import netflix from "../assets/netflix.png";
 import news from "../assets/news.png";
 import food from "../assets/food.png";
-import text from "../assets/text.png";
+import ChatGPT from "../assets/ChatGPT.png";
+
 import cart from "../assets/cart.png";
 
 const mywork_data = [
@@ -11,7 +12,7 @@ const mywork_data = [
     id: 1,
     title: "E-Commerce Web App",
 
-    image: Screenshot,
+    image: EMS,
     // github: "https://github.com/yourusername/ecommerce-app",
   },
   {
@@ -39,7 +40,7 @@ const mywork_data = [
     id: 5,
     title: "Weather App",
 
-    image: text,
+    image: ChatGPT ,
     //github: "https://github.com/yourusername/weather-app",
   },
   {

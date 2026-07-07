@@ -7,11 +7,11 @@ function Head() {
     <div id='home'className='head'>
       <img className="newimg" src={newimg} alt="newimg"/>
       <h1><span>I'm Chanchal Muraskar</span> A full stack developer</h1>
-      <p>I am a full stack developer passionate about building modern web application</p>
+      <p>I'm a UI Developer currently working at Swipfe Infotech Pvt. Ltd., passionate about creating responsive, modern, and user-friendly web applications using React.js, ASP.NET Core, JavaScript, and SQL Server.</p>
       <div className="head-action">
         <div className="head-connect">Connect with me</div>
         
-        <a href="/Muraskar resume.pdf" download="Chanchal_resume.pdf" className="head-resume">Download Resume</a>
+        <a href="public\chanchal_muraskar (2).pdf" download="public\chanchal_muraskar (2).pdf" className="head-resume">Download Resume</a>
       </div>
     </div>
   )
